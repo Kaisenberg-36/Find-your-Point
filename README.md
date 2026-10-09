@@ -6,26 +6,83 @@
 
 You shouldn't have to analyze, summarize, and organize everything yourself just to get AI to create a useful presentation.
 
-**find-your-point does the heavy thinking first.** It guides your agent to read your materials, discover what matters, and build a clear story around what your audience needs to understand — without making you figure out the structure first.
+**find-your-point does the heavy thinking first.** It guides your agent to read your materials, discover what matters, and build a clear story around what your audience needs to understand — **without making you figure out the structure first.**
 
-The agent handles the analysis and organization, asking for your input when a decision genuinely needs you.
+The agent handles the analysis and priority work organization, asking for your input when a decision genuinely needs you.
 
-*Experimental Alpha · Agent-assisted analysis → local, editable HTML briefings.*
 
 ## You did the work. Let AI find the story.
 
-Project updates, spreadsheets, meeting notes, feedback. A template-first workflow might organize them into **Background → Progress → Achievements → Next Steps**. But a tidy outline can still miss the point.
+You have Project updates, spreadsheets, meeting notes, feedback. A template-first workflow might organize them into 
+**Background → Progress → Achievements → Next Steps**. While this skill can:
 
 - **Find what matters.** Discover meaningful changes, relationships, and potential value across your materials.
 - **Think beyond templates.** Shape the narrative around your audience, not predefined chapters.
 - **Keep claims grounded.** Connect important findings to sources; separate evidence from assumptions.
 - **Own the result.** Keep the HTML and editable source files, and refine them with your agent.
 
-## Scattered inputs → important findings → audience-first briefing
+## From Scattered Materials to a Clear Point
+**Scattered inputs → important findings → audience-first briefing**
 
-**Synthetic demonstration — not a customer result.** Complaint statistics, carrier-change notes, product-launch records, and a confident supervisor opinion initially suggest a simple story: complaints rose, and two operational changes caused it.
+**📑 Input — Scattered Materials**
 
-Reading the records together reveals a different point: **the totals use different counting bases; category shares changed, but the causes remain unresolved.**
+Complaint records, delivery data, product feedback, and management assertions.
+
+<p align="center">↓</p>
+
+**🧠 Insight — What Actually Matters**
+
+Complaint categories shifted, but not every number is directly comparable. The evidence reveals meaningful patterns — without proving what caused them.
+
+<p align="center">↓</p>
+
+**🖥️ Output — A Briefing Built Around Understanding**
+
+A clear, editable HTML briefing that connects the findings, explains what the evidence supports, and guides your audience toward the key takeaway.
+
+**Not just organized information. A point worth making.**
+
+
+## Example Story.
+
+Imagine you're preparing a business review with three months of customer support reports, delivery records, and product feedback.
+
+### 📋 A typical template-first briefing
+
+**Background → Complaint Trends → Root Causes → Action Plan**
+
+Everything is neatly organized.
+
+But it might miss the most important question:
+
+**Did customer complaints actually increase?**
+
+### 💡 With find-your-point
+
+Instead of filling a predefined outline, the AI examines the evidence and discovers:
+
+**01 · The apparent increase may be misleading.**
+
+One month's report counts complaints. Later reports also include customer inquiries. The totals aren't directly comparable.
+
+**02 · But something meaningful did change.**
+
+A separate, consistently defined complaint breakdown reveals a change in the types of issues customers reported.
+
+**03 · And the causes? Still unproven.**
+
+Delivery and product records offer clues, but the available evidence doesn't establish what's driving the change.
+
+### 🎯 The briefing now has a point.
+
+**What changed isn't necessarily how many customers complained — it's the mix of problems they reported. And understanding why requires more evidence.**
+
+Instead of another routine status report, your audience gets a clear, evidence-grounded way to understand the problem.
+
+**Same materials. Less guesswork. A much better story.**
+
+*See what you get below.*
+
 
 ### 1. Find the comparison that actually holds
 
