@@ -10,9 +10,7 @@ You shouldn't have to analyze, summarize, and organize everything yourself just 
 
 It reads your materials, discovers what truly matters, separates evidence from assumptions, and builds a clear story around what your audience needs to understand — **without making you figure out the structure first.**
 
-It handles the analysis, prioritization, and narrative work, asking for your input only when a decision genuinely needs you.
-
-**Not another generic outline. Not another endless questionnaire.**
+It handles the analysis, prioritization, and narrative work, asking for your input only when a decision genuinely needs you.**Not another generic outline or endless questionnaire.**
 
 From scattered files to meaningful insights, presentations, reports, and editable HTML briefings you can keep improving.
 
