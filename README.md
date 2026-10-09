@@ -1,10 +1,9 @@
-# Find Your Point
+# Find-Your-Point
 
 **Stop making slides. Start making your point.**
-
 Your files are full of information. But what actually matters?
 
-**Find Your Point** is an AI skill that reads your materials, uncovers meaningful insights, and turns them into a clear, evidence-grounded, editable briefing — built around your audience, not a generic template.
+**Find-Your-Point** is an AI skill that reads your materials, uncovers meaningful insights, and turns them into a clear, evidence-grounded, editable briefing — built around your audience, not a generic template.
 
 ## You did the work. Let AI find the story.
 
@@ -16,12 +15,12 @@ A template-first workflow might give you:
 
 Everything looks organized. But did it find anything worth remembering?
 
-**Find Your Point works differently.**
+**Find-Your-Point works differently.**
 
 - **Find what matters.** Discover important changes, patterns, relationships, and potential value hidden across your materials.
 - **Think beyond templates.** Build the story around what your audience needs to understand, not predefined sections.
 - **Keep claims grounded.** Connect important findings to their source materials and distinguish evidence from assumptions.
-- **Own the result.** Get a local, editable HTML briefing you can present, refine, and keep building on with an AI agent.
+- **Own the result.** Get a local, editable HTML briefing you can present, refine, and keep building on with your agent.
 
 ## Bring the files. Skip the manual outline.
 
