@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投诉有记录，原因待证实 · Signature Trial</title>
+  <script src="../parallel-evidence-slice/content.js"></script>
+  <style>
+    :root { color-scheme: light; color: #202b34; background: #f3f3ef; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.65; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    .review-bar { max-width: 1200px; margin: 0 auto; padding: 16px 32px; display: flex; justify-content: space-between; gap: 16px; font-size: 13px; color: #52606a; }
+    a { color: #204c69; text-underline-offset: 4px; }
+    a:focus-visible { outline: 2px solid #204c69; outline-offset: 5px; }
+    main { max-width: 1200px; margin: 0 auto 40px; padding: 40px 56px 28px; background: #fff; }
+    p, h1, h2, h3 { margin: 0; }
+    .context { font-size: 13px; color: #52606a; letter-spacing: .07em; margin-bottom: 20px; }
+    h1 { font-size: clamp(32px, 4.1vw, 55px); line-height: 1.28; font-weight: 650; letter-spacing: -.035em; }
+    h1 span { display: block; }
+    .unresolved { color: #204c69; }
+    .conclusion { margin-top: 22px; max-width: 1000px; font-size: 16px; }
+    .conclusion .claim-text { display: block; margin-top: 4px; }
+    .status-label { color: #52606a; font-size: 12px; font-weight: 500; margin-right: 8px; }
+    .conclusion .status-label { color: #204c69; }
+    .observed-section { margin-top: 28px; padding: 22px 0; border-top: 1px solid #bec6ca; border-bottom: 1px solid #bec6ca; display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 24px; }
+    h2 { font-size: 20px; font-weight: 650; }
+    .object-status { font-size: 13px; color: #52606a; margin-top: 3px; }
+    .claim { font-size: 15px; }
+    .total { font-size: 22px; font-weight: 550; font-variant-numeric: tabular-nums; margin-bottom: 10px; }
+    .total .status-label { display: block; font-weight: 400; }
+    .category-facts { display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 8px; margin-bottom: 10px; }
+    .supplement { margin-top: 7px; font-size: 14px; }
+    .explanations { margin-top: 28px; }
+    .section-intro { display: flex; align-items: baseline; gap: 20px; flex-wrap: wrap; margin-bottom: 20px; }
+    .section-intro p { font-size: 14px; color: #52606a; }
+    .column-labels, .clue { display: grid; grid-template-columns: 200px minmax(0, 1fr) minmax(0, .95fr); gap: 24px; }
+    .column-labels { font-size: 13px; color: #52606a; padding-bottom: 9px; border-bottom: 1px solid #bec6ca; }
+    .clue { padding: 22px 0; border-bottom: 1px solid #d6dcdf; }
+    h3 { font-size: 19px; font-weight: 650; }
+    .return-context { margin-top: 18px; }
+    .return-context .claim { font-size: 14px; }
+    .return-context .status-label { display: block; }
+    .records .claim + .claim { margin-top: 10px; }
+    .interpretation { margin-top: 14px; padding-top: 10px; border-top: 1px solid #e0e5e8; }
+    .interpretation .status-label { display: block; color: #204c69; }
+    .gap { background: #f0f4f6; padding: 16px 18px; align-self: start; }
+    .gap .status-label { display: block; color: #204c69; margin-bottom: 6px; }
+    .gap .claim { font-size: 16px; }
+    .cell-label { display: none; }
+    footer { margin-top: 20px; color: #52606a; font-size: 13px; }
+    @media (max-width: 760px) {
+      main { padding: 28px 22px; margin-bottom: 0; }
+      .review-bar { padding: 14px 22px; }
+      .observed-section, .clue { grid-template-columns: 1fr; gap: 16px; }
+      .column-labels { display: none; }
+      .cell-label { display: block; font-size: 13px; color: #52606a; margin-bottom: 8px; }
+      .return-context { margin-top: 10px; }
+      .total { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="review-bar" aria-label="本次表达对照"><span>单节点表达试验 · 静态 Candidate</span><a href="baseline.html">查看原表达 A</a></nav>
+  <main id="candidate"></main>
+  <noscript>此本地样例需要启用 JavaScript。共享内容在 parallel-evidence-slice/content.js。</noscript>
+  <script>
+    'use strict';
+    // Presentation intent is editable separately from the unchanged source claims.
+    // These paraphrases need semantic review if their premises change; IDs do not
+    // automatically rewrite the heading or guarantee that it remains supported.
+    window.SIGNATURE_INTENT = {
+      stateId: 'state-synthesis',
+      framing: {
+        headline: {lines: ['投诉增加，已有记录。', '原因归属，仍待证实。'], provenance: 'PRESENTER FRAMING', premiseIds: ['total', 'limit']},
+        parallel: {text: '分别理解两组线索，保留各自的证据缺口。', provenance: 'PRESENTER FRAMING', premiseIds: ['logisticsGap', 'productGap', 'limit']}
+      },
+      audienceValue: 'Make the distinction between recorded change and unresolved causal attribution the primary static memory cue.',
+      benefitStatus: 'Untested audience benefit; rendered expression can be inspected.',
+      supportedMeaning: 'Observed complaints and separate possible explanations remain distinct; no single or joint causal verdict.',
+      unsupportedReading: 'Neither row order, prominence nor aligned columns ranks causes or establishes joint contribution.',
+      ordinaryAlternative: 'baseline.html',
+      motion: 'none'
+    };
+    (() => {
+      const d = window.BRIEFING;
+      const intent = window.SIGNATURE_INTENT;
+      const root = document.getElementById('candidate');
+      const node = (tag, text, className) => {
+        const el = document.createElement(tag);
+        if (text !== undefined) el.textContent = text;
+        if (className) el.className = className;
+        return el;
+      };
+      const claim = (id, className = '') => {
+        const c = d.claims[id];
+        if (!c) throw new Error(`Missing claim: ${id}`);
+        const p = node('p', undefined, `claim ${className}`);
+        p.dataset.claimId = id;
+        p.dataset.claimStatus = c.status;
+        p.dataset.evidenceIds = c.evidenceIds.join(' ');
+        p.append(node('span', d.statuses[c.status], 'status-label'), node('span', c.text, 'claim-text'));
+        return p;
+      };
+      const framing = (el, id) => {
+        el.dataset.framingId = id;
+        el.dataset.premiseIds = intent.framing[id].premiseIds.join(' ');
+        return el;
+      };
+      const state = d.narrative.states.find(s => s.id === intent.stateId);
+      if (!state || state.role !== 'synthesis') throw new Error('Synthesis state is required.');
+      root.dataset.artifactId = d.id;
+      root.dataset.sceneId = d.narrative.scene.id;
+      root.dataset.stateId = state.id;
+      root.dataset.role = state.role;
+      const header = node('header');
+      header.append(node('p', `${d.copy.context} · ${state.title}`, 'context'));
+      const title = framing(node('h1'), 'headline');
+      intent.framing.headline.lines.forEach((text, i) => title.append(node('span', text, i ? 'unresolved' : '')));
+      header.append(title, claim('limit', 'conclusion'));
+      root.append(header);
+
+      const observed = node('section', undefined, 'observed-section');
+      const o = d.objects.phenomenon;
+      observed.dataset.objectId = o.id;
+      const label = node('div');
+      label.append(node('h2', o.title), node('p', d.statuses[o.status], 'object-status'));
+      const facts = node('div');
+      const categories = node('div', undefined, 'category-facts');
+      categories.append(claim('delivery'), claim('system'));
+      facts.append(claim('total', 'total'), categories, claim('contact', 'supplement'), claim('basis', 'supplement'));
+      observed.append(label, facts);
+      root.append(observed);
+
+      const explanations = node('section', undefined, 'explanations');
+      const intro = node('div', undefined, 'section-intro');
+      intro.append(node('h2', '候选解释'), framing(node('p', intent.framing.parallel.text), 'parallel'));
+      const columns = node('div', undefined, 'column-labels');
+      ['线索与对应现象', '已有记录与解释线索', '尚不能下结论的地方'].forEach(text => columns.append(node('p', text)));
+      explanations.append(intro, columns);
+      const parts = {
+        logistics: {facts: ['logisticsFact'], interpretation: 'logisticsLink', gap: 'logisticsGap'},
+        product: {facts: ['productFact', 'permissionFact'], interpretation: 'productLink', gap: 'productGap'}
+      };
+      ['logistics', 'product'].forEach(id => {
+        const object = d.objects[id], part = parts[id];
+        const row = node('section', undefined, 'clue'); row.dataset.objectId = object.id;
+        const identity = node('div');
+        identity.append(node('h3', object.title), node('p', d.statuses[object.status], 'object-status'));
+        const related = node('div', undefined, 'return-context');
+        object.relatedClaimIds.forEach(id => related.append(claim(id)));
+        identity.append(related);
+        const records = node('div', undefined, 'records');
+        records.append(node('p', '已有记录与解释线索', 'cell-label'));
+        part.facts.forEach(id => records.append(claim(id)));
+        records.append(claim(part.interpretation, 'interpretation'));
+        const gap = node('div', undefined, 'gap');
+        gap.append(node('p', '尚不能下结论的地方', 'cell-label'), claim(part.gap));
+        row.append(identity, records, gap);
+        explanations.append(row);
+      });
+      root.append(explanations, node('footer', `${d.copy.orderNote} 本页使用合成材料。`));
+    })();
+  </script>
+</body>
+</html>

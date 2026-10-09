@@ -1,0 +1,13 @@
+:root {font-family:system-ui,-apple-system,"PingFang SC",sans-serif;line-height:1.7;color:#22313a;background:#f5f5f1;color-scheme:light}
+* {box-sizing:border-box} body {margin:0} main {max-width:1100px;margin:auto;padding:38px 32px 56px}
+h1 {font-size:clamp(28px,3.5vw,38px);line-height:1.35;margin:12px 0 16px} h2 {font-size:23px;margin:22px 0 20px} h3 {font-size:17px;margin:0 0 12px}
+p {margin:8px 0} .eyebrow,.status,.progress {font-size:13px;color:#50636b} .context {max-width:900px;font-size:16px}
+nav {display:flex;gap:20px;align-items:center;padding:16px 0;margin-top:26px;border-top:1px solid #acb8bc;border-bottom:1px solid #acb8bc}
+button {font:inherit;font-size:14px;color:inherit;background:white;border:1px solid #9dabb0;padding:7px 16px;cursor:pointer}
+button:disabled {opacity:.5;cursor:default} button:focus-visible,h2:focus-visible {outline:2px solid #285b76;outline-offset:4px}
+.job {color:#50636b;font-size:15px;margin-bottom:22px} .grid {display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.group {background:white;padding:22px;border-top:2px solid #a8b6bd} .group.full {grid-column:1/-1}
+.claim {margin:14px 0;font-size:16px} .status {display:block;margin-bottom:3px} .qualified {border-left:2px solid #617e8e;padding-left:13px}
+.return {margin:0 0 12px;font-size:13px;color:#365969} .boundary {margin-top:20px;padding:18px 22px;background:#eaf0f2}
+.boundary .claim {margin:8px 0} footer {font-size:13px;color:#50636b;margin-top:24px} .notice {padding:20px;background:white;border:1px solid #acb8bc}
+@media(max-width:700px){main{padding:24px 18px}.grid{grid-template-columns:1fr}nav{gap:12px;flex-wrap:wrap}}

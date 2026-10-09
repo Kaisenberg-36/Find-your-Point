@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>原表达 · Synthesis</title>
+  <link rel="stylesheet" href="../parallel-evidence-slice/style.css">
+  <script defer src="../parallel-evidence-slice/content.js"></script>
+  <script defer src="../parallel-evidence-slice/render.js"></script>
+</head>
+<body>
+  <main id="briefing"></main>
+  <noscript>此本地样例需要启用 JavaScript。</noscript>
+  <script>
+    // Use the original renderer and styling unchanged; enter only its final State.
+    document.addEventListener('DOMContentLoaded', () => {
+      const states = window.BRIEFING.narrative.states;
+      const index = states.findIndex(state => state.id === 'state-synthesis');
+      for (let step = 0; step < index; step++) document.getElementById('next').click();
+    });
+  </script>
+</body>
+</html>

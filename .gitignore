@@ -1,0 +1,17 @@
+# User and private working data
+.local/
+input/
+inputs/
+outputs/
+.env
+.env.*
+!.env.example
+# Local runtime/validation and OS files
+.venv/
+.review/
+.review-env/
+__pycache__/
+*.py[cod]
+.DS_Store
+node_modules/
+# Publication is an explicit file selection, not an ignore-rule guarantee.
