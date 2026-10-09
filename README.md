@@ -6,7 +6,7 @@
 
 You shouldn't have to analyze, summarize, and organize everything yourself just to get AI to create a useful presentation.
 
-**find-your-point does the heavy thinking first.** It guides your agent to read your materials, discover what matters, and build a clear story around what your audience needs to understand — **without making you figure out the structure first.**
+**this skill does the heavy thinking first.** It guides your agent to read your materials, discover what matters, and build a clear story around what your audience needs to understand — **without making you figure out the structure first.**
 
 The agent handles the analysis and priority work organization, asking for your input when a decision genuinely needs you.
 
@@ -127,9 +127,8 @@ Bring authorized files and whatever you already know about the audience. You do 
 ## What you own
 
 Open `outputs/first-briefing/index.html` and keep its **whole folder**: HTML, editable content, styles, scripts, and handoff notes. Ask your agent to revise it; evidence changes require reviewing the conclusions they support.
+**And you can continue to modify these materials in your agent, everything keeps editable.**
 
 **Available:** material-first reasoning, adaptive narrative guidance, evidence records and checks, editable local HTML. **Experimental:** quality across new tasks and agents. **Planned:** full Evidence Mode, richer editing, print/PDF, and deeper visual and motion craft. Source tracing does not independently verify source truth.
 
-Found a useful insight—or a missed one? [Share a small, non-confidential reproduction](CONTRIBUTING.md).
-
-[MIT License](LICENSE) · Copyright (c) 2026 Kaisenberg-36. [Alpha scope](docs/PUBLICATION_POLICY.md).
+if you have any question or suggestion, please contact me.
