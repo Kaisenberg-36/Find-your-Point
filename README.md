@@ -168,4 +168,4 @@ Open `outputs/first-briefing/index.html` and keep its **whole folder**: HTML, ed
 
 [Open an issue](https://github.com/Kaisenberg-36/find-your-point/issues) with your agent, intended audience, expected result, and what happened. A small synthetic example is enough; please keep private work materials out of public issues. See [contribution guidance](CONTRIBUTING.md).
 
-If the skill helps you make your point, a star makes it easier to find again and lets you show your support.
+If the skill helps, a star would be great.
