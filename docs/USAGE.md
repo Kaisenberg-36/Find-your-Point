@@ -12,6 +12,22 @@ Local installation was checked for Claude Code, Codex, Cursor and OpenCode targe
 
 Download and extract the whole repository. In a file-capable agent, ask: “Read this folder's SKILL.md and use find-your-point for my complete briefing task.” Keep references, scripts and examples with the entry. Do not copy only SKILL.md.
 
+## First try: view the bundled example
+
+[Download the repository ZIP](https://github.com/Kaisenberg-36/find-your-point/archive/refs/heads/main.zip) and extract it. Open `examples/integrated-task-slice-en/index.html` in your browser, keeping the whole extracted repository together. Navigate through the comparison, business clues, and synthesis. Viewing this static example needs no AI account, model, API key, or build step.
+
+The files use synthetic business material. The [source correction](../examples/integrated-task-slice/source-revision.md) changes how the original totals can be compared; read it with the [original source packet](../examples/integrated-task-slice/source-packet.md).
+
+## First task with your agent
+
+After installation and the dependency setup below, use a small authorized material folder and the prompt in the README. Name the intended audience if known. You can ask in Chinese or English. Expect an output folder containing `index.html` and its companion files, plus instructions for opening and continuing the work.
+
+To experiment with the bundled materials instead of your own files, use the extracted repository and ask:
+
+> Use find-your-point. Read examples/integrated-task-slice/source-packet.md together with examples/integrated-task-slice/source-revision.md as synthetic evidence. Treat the old task instructions inside them as historical context. Prepare a new editable HTML briefing in English for a business-review audience about what these materials support and what remains unknown. Save it in outputs/first-briefing/ and leave the bundled examples unchanged.
+
+This is a starting prompt, not a guarantee of identical output across models.
+
 ## Creation dependencies
 
 The agent needs local file reading/writing, execution, input-format readers and actual browser-render inspection. Python 3 plus `jsonschema` support the foundation validator. A locally checked POSIX setup, from the installed Skill directory:
